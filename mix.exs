@@ -40,7 +40,7 @@ defmodule InvoiceGenerator.MixProject do
       {:tailwind, "~> 0.2.0", runtime: Mix.env() == :dev},
       {:jason, "~> 1.2"},
       {:bandit, "~> 1.5"},
-      {:chromic_pdf, "~> 1.14"},
+      {:chromic_pdf, "~> 1.17"},
       {:decimal, "~> 2.3"}
     ]
   end
